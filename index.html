@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title>Booki</title>
+</head>
+
+<body>
+
+    <main>
+        <header> <!-- l'en-tête avec le titre du site, sa nav barre, et la barre de recherche avec les filtres-->
+
+            <nav> <!-- la barre de navigation -->
+                <div class="nav__titre"></div>
+                <div class="nav__sections">
+                    <ul>
+                        <li>Hébergements</li>
+                        <li>Activités</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="hero"> <!-- la phrase d'accroche -->
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <div class="recherche"> <!-- la barre de recherche -->
+                <img src="./images/fonts/location-dot-solid.svg" width="16" height="24" alt="">
+                <input type="search" name="destination" id="destination" placeholder="Marseille, France">
+                <button>Rechercher</button>
+            </div>
+
+            <div class="filtres"> <!-- les filtres de recherche -->
+                <p>Filtres</p>
+                <ul>
+                    <li><div class="filtres__icon"><img src="./images/fonts/money-bill-wave-solid.png" width="18" height="20" alt=""></div>Economique</li>
+                    <li><div class="filtres__icon"><img src="./images/fonts/child-solid.png" width="18" height="20" alt=""></div>Familial</li>
+                    <li><div class="filtres__icon"><img src="./images/fonts/heart-solid.png" width="18" height="20" alt=""></div>Romantique</li>
+                    <li><div class="filtres__icon"><img src="./images/fonts/dog-solid.png" width="18" height="20" alt=""></div>Animaux autorisés</li>
+                </ul>
+            </div>
+            <div class="infologement">
+                <img src="./images/fonts/info-solid.png" width="6" height="16" alt="">Plus de 500 logements sont disponibles dans cette ville
+            </div>
+
+        </header>
+
+
+
+        <section class="hebergementsMarseille"> <!-- la section regroupant le bloc des hébergements à Marseille, avec le bloc des hebergements les plus populaires dans cette ville -->
+            <article class="hebergementsMarseille__hebergements">
+                <h3>Hébergements à Marseille</h3>
+                <ul>
+                    <li>Auberge La Cannebière</li>
+                    <li>Hôtel du port</li>
+                    <li>Hôtel Les mouettes</li>
+                </ul>
+                <ul>
+                    <li>Hôtel de la mer</li>
+                    <li>Auberge Le Panier</li>
+                    <li>Hôtel chez Amina</li>
+                </ul>
+                <p>Afficher plus</p>
+            </article>
+            <article class="hebergementsMarseille__populaires">
+                <h3>Les plus populaires</h3>
+                <ul>
+                    <li>Hôtel Le soleil du matin</li>
+                    <li>au coeur de l'eau Chambres d'hôtes</li>
+                    <li>Hôtel Tout bleu et Blanc</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="activitesMarseille"> <!-- le bloc Activités à Marseille -->
+            <h4>Activités à Marseille</h4>
+            <div class="activites">
+                <div>Vieux Port</div>
+                <ul>
+                    <li>Fort de Pomègues</li>
+                    <li>Îles de Friout</li>
+                </ul>
+                <div>Parc National des Calanques</div>
+                <ul>
+                    <li>Notre-Dame-De-La-Garde</li>
+                    <li>Parc Longchamp</li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <footer> <!-- le pied de page avec les 3 blocs "a propos", "nos hebergements", et "assistance" -->
+            <section class="apropos">
+                <h4>A propos</h4>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+            </section>
+            <section class="nosHebergements">
+                <h4>Nos hébergements</h4>
+                <ul>
+                    <li>Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </section>
+            <section class="assistance">
+                <h4>Assistance</h4>
+                <ul>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </section>
+        </footer>
+    </main>
+    
+</body>
+</html>

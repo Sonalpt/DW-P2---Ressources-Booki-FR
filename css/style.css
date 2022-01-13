@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../policies/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url(../policies/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Thin';
+    src: url(../policies/Raleway/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../policies/Raleway/Raleway-Bold.ttf);
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway-Regular', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+/* LE HEADER */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+nav .nav__titre {
+    background-image: url(../images/logo/Booki.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 75px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway-SemiBold',sans-serif;
+}
+nav ul li {
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+.hero h1 {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 24px;
+}
+.hero p {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.recherche img {
+    position: relative;
+    top: 18px;
+    background-color: #F2F2F2;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    margin-right: -5px;
+    border-radius: 15px 0px 0px 15px;
+}
+.recherche input {
+    font-family: 'Raleway-Bold', sans-serif;
+    color: black;
+    font-size: 18px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid #F2F2F2;
+}
+.recherche ::placeholder {
+    font-family: 'Raleway-Bold', sans-serif;
+    color: black;
+}
+.recherche button {
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway-SemiBold', sans-serif;
+    font-size: 18px;
+    padding: 14px;
+    border-style: none;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: -5px;
+}
+.recherche button:hover {
+    cursor: pointer;
+}
+
+.filtres {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    color: black;
+    font-family: 'Raleway-Bold', sans-serif;
+}
+.filtres ul {
+    display: flex; 
+}
+.filtres ul li {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    padding-right: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 300px;
+}
+.filtres ul li .filtres__icon {
+    align-items: center;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 10px;
+    background-color: #DEEBFF;
+    border-radius: 300px;
+}
+
+.infologement {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.infologement img {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 300px;
+    margin-right: 10px;
+}
+
+
+
+
