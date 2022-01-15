@@ -27,12 +27,17 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Raleway-Regular', sans-serif;
-    margin-left: 4%;
-    margin-right: 4%;
     font-size: 16px;
+    margin: 0;
 }
 
-/* LE HEADER */
+/* ----------------- LE HEADER ----------------------------------------- */
+
+header {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
 
 nav {
     display: flex;
@@ -68,6 +73,9 @@ nav ul li {
     font-size: 16px;
 }
 
+.recherche {
+    margin-top: -20px;
+}
 .recherche img {
     position: relative;
     top: 18px;
@@ -140,6 +148,7 @@ nav ul li {
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 .infologement img {
     padding: 5px;
@@ -149,6 +158,337 @@ nav ul li {
     border-radius: 300px;
     margin-right: 10px;
 }
+
+
+
+/* ---------------------- LA SECTION HEBERGEMENT MARSEILLE ------- */ 
+
+.hebergementsMarseille {
+    margin-left: 4%;
+    margin-right: 4%;
+    align-items: center;
+    display: flex;
+    height: 650px;
+}
+.hebergementsMarseille__hebergements {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    margin-right: 5%;
+    border-radius: 20px;
+    height: 100%;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Raleway-Bold', sans-serif;
+    padding-left: 3.5%;
+    padding-top: 25px;
+}
+.liste-hebergements {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 15px;
+}
+.hebergement {
+    background: white;
+    margin-right: 5%;
+    min-width: 26%;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+    min-width: 25%;
+    min-height: 110px;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.photo1 {
+    background-image: url(../images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+.photo2 {
+    background-image: url(../images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+.photo3 {
+    background-image: url(../images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+.photo4 {
+    background-image: url(../images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+.photo5{
+    background-image: url(../images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+.photo6{
+    background-image: url(../images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+.hebergement__titre {
+    font-size: 16px;
+    color: black;
+    font-family: 'Raleway-Bold', sans-serif;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.description {
+    padding-left: 5px;
+}
+.nuit {
+    font-size: 14px;
+}
+.prix {
+    font-family: 'Raleway-semiBold', sans-serif;
+}
+.note {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.afficherplus {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 18px;
+    padding-left: 3.5%;
+    margin-top: 20px;
+}
+
+
+
+/* ---------- SECTION HEBERGEMENTS POPULAIRES ---------- */
+
+.hebergementsMarseille__populaires {
+    background-color: #F2F2F2;
+    min-width: 35%;
+    border-radius: 15px;
+    height: 100%;
+}
+.hebergementsMarseille__populaires h3 {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 45px;
+    padding-left: 75px;
+}
+.hebergementsMarseille__populaires h3 img {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-right: 25px;
+    padding-left: 2px;
+}
+.liste-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.populaire {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid white;
+    max-width: 70%;
+    margin-left: 15%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+.photo7, .photo8, .photo9 {
+    min-height: 130px;
+    min-width: 35%;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+}
+.photo7 {
+    background-image: url(../images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+.photo8 {
+    background-image: url(../images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+.photo9 {
+    background-image: url(../images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-size: 100%;
+}
+.populaire__texte {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.populaire__texte__titre {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 16px;
+}
+.populaire__texte__description {
+    margin-top: 5px;
+}
+.populaire__texte .note img {
+    margin-top: 30px;
+}
+
+
+
+/* --------- SECTION ACTIVITES MARSEILLE -------*/
+
+.activitesMarseille {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.activitesMarseille h4 {
+    font-size: 24px;
+    font-family: 'Raleway-Bold', sans-serif;
+}
+.activitesMarseille .activites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+.activitesMarseille .activites .activite__titre {
+    font-size: 16px;
+    font-family: 'Raleway-Bold', sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.activitesMarseille .activites .activite-solo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    margin-right: 3%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    border-radius: 15px;
+}
+.activitesMarseille .activites .activite-duo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 3%;
+}
+.activitesMarseille .activites .activite__image-1 {
+    background-image: url(../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 88%;
+    width: 100%;
+}
+.activite-duo .activite-duo-1 {
+    height: 44%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    margin-bottom: 10%;
+}
+.activite-duo .activite-duo-1 .activite__image-2 {
+    background-image: url(../images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 78%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.activite-duo .activite-duo-2 {
+    height: 30%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+.activite-duo .activite-duo-2 .activite__image-3 {
+    background-image: url(../images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -30px -30px;
+    border-radius: 15px 15px 0px 0px;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.activitesMarseille .activites .activite__image-4 {
+    background-image: url(../images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 88%;
+    width: 100%;
+}
+.activite-duo .activite-duo-3 {
+    height: 30%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    margin-bottom: 10%;
+}
+.activite-duo .activite-duo-3 .activite__image-5 {
+    background-image: url(../images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -50px -10px;
+    border-radius: 15px 15px 0px 0px;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.activite-duo .activite-duo-4 {
+    height: 44%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    margin-bottom: 10%;
+}
+.activite-duo .activite-duo-4 .activite__image-6 {
+    background-image: url(../images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0px;
+    border-radius: 15px 15px 0px 0px;
+    height: 78%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+
+/* -------------- SECTION FOOTER --------------*/
+
+footer {
+    margin: 0;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+footer section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+footer section h4 {
+    font-size: 18px;
+    font-family: 'Raleway-Bold', sans-serif;
+}
+footer section ul {
+    margin-left: -40px;
+    margin-top: -5px;
+}
+footer section ul li {
+    margin-bottom: 10px;
+}
+
+
+
 
 
 
