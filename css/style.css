@@ -1168,10 +1168,11 @@ footer section ul li a {
     }
     footer {
         flex-direction: column;
-        padding-left: 4%;
     }
     footer section {
-        width: 100%;
+        width: 90%;
+        position: relative;
+        left: 5%;
     }
     footer section h4 {
         font-size: 18px;
