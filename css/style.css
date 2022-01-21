@@ -883,6 +883,9 @@ footer section ul li a {
         margin-bottom: 20px;
         align-items: flex-start;
     }
+    .recherche button {
+        margin-left: -15px;
+    }
     .recherche img {
         position: relative;
         top: 0px;
