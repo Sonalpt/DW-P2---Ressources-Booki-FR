@@ -936,6 +936,14 @@ footer section ul li a {
     .filtres ul li {
         margin: 0;
     }
+    .filtres ul li:hover {
+        transform: scale(1.0);
+    }
+    .infologement {
+        font-size: 14px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
     #hebergementsMarseille {
         flex-direction: column;
     }
@@ -946,35 +954,55 @@ footer section ul li a {
         min-width: 100%;
         margin-right: 0%;
         border-radius: 20px;
-        height: 100%;
+        height: 1600px;
+        background-color: white;
+        margin-top: -30px;
+    }
+    h3 {
+        margin-left: 6%;
+        font-size: 20px;
     }
     .liste-hebergements {
-        flex-direction: row;
+        flex-direction: column;
+        max-width: 100%;
+        left: 0;
+        margin-bottom: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .hebergement {
+        width: 80%;
+        margin-right: 0;
+    }
+    .afficherplus {
+        font-family: 'Raleway-Bold', sans-serif;
+        font-size: 18px;
+        padding-left: 7%;
+        margin-top: 0px;
     }
     .hebergementsMarseille__populaires {
-        margin-top: 50px;
         background-color: #F2F2F2;
         min-width: 100%;
         border-radius: 15px;
-        height: 100%;
+        height: 1200px;
     }
     .hebergementsMarseille__populaires h3 {
-        padding-left: 5%;
+        padding-left: 10%;
     }
     .liste-populaires {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .populaire {
         text-decoration: none;
         color: inherit;
         display: block;
-        min-width: 26%;
         background: white;
         margin-right: 0%;
         margin-left: 0%;
-        min-width: 26%;
+        min-width: 80%;
         display: flex;
         flex-direction: column;
         border: solid 5px white;
@@ -999,10 +1027,10 @@ footer section ul li a {
     }
     #activitesMarseille {
         align-items: justify;
-        margin-top: 400px;
+        margin-top: 1700px;
         display: flex;
         flex-direction: column;
-        height: 1600px;
+        height: 100%;
         margin-left: 4%;
         margin-right: 4%;
     }
@@ -1021,7 +1049,7 @@ footer section ul li a {
         flex-direction: column;
         margin-bottom: 5%;
         width: 100%;
-        height: 25%;
+        height: 250px;
         margin-right: 0%;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
         border-radius: 15px;
@@ -1034,12 +1062,12 @@ footer section ul li a {
         background-size: cover;
         background-position: center cover;
         border-radius: 15px 15px 0px 0px;
-        height: 88%;
+        height: 78%;
         width: 100%;
     }
     #activitesMarseille .activites .activite-duo {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         width: 100%;
         height: 25%;
@@ -1049,11 +1077,11 @@ footer section ul li a {
     .activite-duo .activite-duo-1 {
         text-decoration: none;
         color: inherit;
-        height: 100%;
-        width: 47%;
+        height: 250px;
+        width: 100%;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
-        margin-bottom: 0%;
+        margin-bottom: 5%;
         transform: scale(1.0);
         transition: transform 300ms;
     }
@@ -1070,8 +1098,8 @@ footer section ul li a {
     .activite-duo .activite-duo-2 {
         text-decoration: none;
         color: inherit;
-        height: 100%;
-        width: 47%;
+        height: 250px;
+        width: 100%;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
         transform: scale(1.0);
@@ -1098,12 +1126,13 @@ footer section ul li a {
     .activite-duo .activite-duo-3 {
         text-decoration: none;
         color: inherit;
-        height: 100%;
-        width: 47%;
+        height: 250px;
+        width: 100%;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
         transform: scale(1.0);
         transition: transform 300ms;
+        margin-bottom: 5%;
     }
     .activite-duo .activite-duo-3 .activite__image-5 {
         background-repeat: no-repeat;
@@ -1112,13 +1141,13 @@ footer section ul li a {
         border-radius: 15px 15px 0px 0px;
         height: 78%;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 5%;
     }
     .activite-duo .activite-duo-4 {
         text-decoration: none;
         color: inherit;
-        height: 100%;
-        width: 47%;
+        height: 250px;
+        width: 100%;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
         transform: scale(1.0);
@@ -1137,14 +1166,22 @@ footer section ul li a {
         font-size: 14px;
         padding-bottom: 25px;
     }
-
+    footer {
+        flex-direction: column;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    footer section {
+        width: 100%;
+    }
     footer section h4 {
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Raleway-Bold', sans-serif;
     }
     footer section ul li {
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 14px;
+        width: 100%;
     }
 }
 
