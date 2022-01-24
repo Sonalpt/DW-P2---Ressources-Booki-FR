@@ -98,9 +98,9 @@ nav ul li a:hover {
     top: 18px;
     background-color: #F2F2F2;
     padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 12px;
-    padding-bottom: 13px;
+    padding-left: 16.5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-right: -5px;
     border-radius: 15px 0px 0px 15px;
 }
@@ -181,9 +181,14 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 .infologement img {
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
     border: 1px solid #F2F2F2;
     border-radius: 300px;
     margin-right: 10px;
@@ -322,7 +327,7 @@ h3 {
     border-left: 3px solid black;
     border-bottom: 3px solid black;
     margin-right: 25px;
-    padding-left: 2px;
+    padding-left: 1px;
 }
 .liste-populaires {
     display: flex;
@@ -588,11 +593,22 @@ footer section ul li a {
  @media (max-width: 992px) {
    
     .hero, .recherche, .filtres {
-        transform: scale(0.8);
+        transform: scale(1);
     }
     .hero, .recherche {
         position: relative;
-        right: 8%;
+        right: 0%;
+    }
+    .recherche img {
+        position: relative;
+        top: 18px;
+        background-color: #F2F2F2;
+        padding-right: 15px;
+        padding-left: 16.5px;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        margin-right: -5px;
+        border-radius: 15px 0px 0px 15px;
     }
     .filtres {
         position: relative;
@@ -869,18 +885,18 @@ footer section ul li a {
         color: #0065FC;
     }
     .hero, .recherche, .filtres {
-        transform: scale(0.8);
+        transform: scale(1);
         margin-left: 4%;
         margin-right: 4%;
     }
     .hero, .recherche {
         position: relative;
-        right: 8%;
+        right: 0%;
     }
     .recherche {
         display: flex;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         align-items: flex-start;
     }
     .recherche button {
@@ -892,13 +908,14 @@ footer section ul li a {
         background-color: #F2F2F2;
         padding-right: 15px;
         padding-left: 15px;
-        padding-top: 12px;
-        padding-bottom: 13px;
+        padding-top: 16px;
+        padding-bottom: 15px;
         margin-right: -5px;
         border-radius: 15px 0px 0px 15px;
     }
     .recherche .search-button {
         visibility: collapse;
+        transform: scale(0);
     }
     .recherche .search-glass {
         visibility: visible;
@@ -928,7 +945,8 @@ footer section ul li a {
         left: 2.5%;
         align-items: flex-start;
         flex-direction: column;
-        margin-top: -25px;
+        margin-top: -15px;
+        margin-bottom: 20px;
     }
     .filtres ul {
         flex-wrap: wrap;
@@ -949,8 +967,11 @@ footer section ul li a {
     }
     #hebergementsMarseille {
         flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
     }
     .hebergementsMarseille__hebergements {
+        order: 2;
         background-color: #F2F2F2;
         display: flex;
         flex-direction: column;
@@ -984,10 +1005,16 @@ footer section ul li a {
         margin-top: 0px;
     }
     .hebergementsMarseille__populaires {
+        order: 1;
         background-color: #F2F2F2;
         min-width: 100%;
         border-radius: 15px;
         height: 1200px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 0;
     }
     .hebergementsMarseille__populaires h3 {
         padding-left: 10%;
@@ -1007,7 +1034,7 @@ footer section ul li a {
         margin-left: 0%;
         min-width: 80%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         border: solid 5px white;
         border-radius: 15px;
         margin-bottom: 30px;
@@ -1016,21 +1043,21 @@ footer section ul li a {
         transition: transform 300ms;
     }
     .photo7, .photo8, .photo9 {
-        min-width: 25%;
+        min-width: 35%;
         min-height: 110px;
         background-repeat: no-repeat;
-        background-size: 105%;
+        background-size: cover;
         background-position: center;
-        border-radius: 15px 15px 0px 0px;
+        border-radius: 15px 0px 0px 15px;
     }
     .populaire__texte .note img {
-        margin-top: 5px;
+        margin-top: 30px;
         position: relative;
         right: 3%;
     }
     #activitesMarseille {
         align-items: justify;
-        margin-top: 1700px;
+        margin-top: 1450px;
         display: flex;
         flex-direction: column;
         height: 100%;
