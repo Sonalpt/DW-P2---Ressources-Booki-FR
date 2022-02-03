@@ -212,7 +212,7 @@ nav ul li a:hover {
     border-radius: 20px;
     height: 100%;
 }
-h3 {
+h2, h3 {
     font-size: 24px;
     font-family: 'Raleway-Bold', sans-serif;
     padding-left: 3.5%;
