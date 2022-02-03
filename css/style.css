@@ -212,7 +212,7 @@ nav ul li a:hover {
     border-radius: 20px;
     height: 100%;
 }
-h2, h3 {
+h3 {
     font-size: 24px;
     font-family: 'Raleway-Bold', sans-serif;
     padding-left: 3.5%;
@@ -674,7 +674,6 @@ footer section ul li a {
         right: 3%;
     }
     #activitesMarseille {
-        align-items: justify;
         margin-top: 400px;
         display: flex;
         flex-direction: column;
@@ -708,7 +707,7 @@ footer section ul li a {
         background-image: url(../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center cover;
+        background-position: center;
         border-radius: 15px 15px 0px 0px;
         height: 88%;
         width: 100%;
@@ -766,7 +765,7 @@ footer section ul li a {
     #activitesMarseille .activites .activite__image-4 {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center cover;
+        background-position: center;
         border-radius: 15px 15px 0px 0px;
         height: 88%;
         width: 100%;
@@ -1071,7 +1070,6 @@ footer section ul li a {
         margin-right: 1px;
     }
     #activitesMarseille {
-        align-items: justify;
         margin-top: 1450px;
         display: flex;
         flex-direction: column;
@@ -1105,7 +1103,7 @@ footer section ul li a {
         background-image: url(../images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center cover;
+        background-position: center;
         border-radius: 15px 15px 0px 0px;
         height: 78%;
         width: 100%;
@@ -1166,7 +1164,7 @@ footer section ul li a {
     #activitesMarseille .activites .activite__image-4 {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center cover;
+        background-position: center;
         border-radius: 15px 15px 0px 0px;
         height: 78%;
         width: 100%;
